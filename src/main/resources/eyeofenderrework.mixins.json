@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_21",
+  "package": "net.phazoganon.eyeofenderrework.mixin",
+  "refmap": "mixins.eyeofenderrework.refmap.json",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "entity.EyeOfEnderMixin",
+    "item.EnderEyeMixin"
+  ]
+}
